@@ -17,7 +17,7 @@ import { Logo } from '../config'
           <button
             type='button'
             x-on:click='isOpen = !isOpen'
-            class='inline-flex items-center justify-center rounded-md p-2 text-purple-600 hover:bg-purple-200 hover:text-pink-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-300 dark:text-purple-300 dark:hover:bg-purple-800 dark:hover:text-pink-300 dark:focus:ring-purple-800'
+            class='inline-flex items-center justify-center rounded-md p-2 text-purple-600 hover:bg-purple-200 hover:text-purple-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-300 dark:text-purple-300 dark:hover:bg-purple-800 dark:hover:text-purple-600 dark:focus:ring-purple-800'
             aria-controls='mobile-menu'
             aria-expanded='false'
           >
@@ -38,7 +38,7 @@ import { Logo } from '../config'
         </div>
         <div class='flex flex-1 items-center justify-center lg:items-stretch lg:justify-start'>
           <div class='flex flex-shrink-0 items-center'>
-            <img class='block h-8 w-8 dark:bg-gray-100' src={Logo.src} alt='Logo' />
+            <img class='block h-8 w-8 rounded-full dark:bg-gray-100' src={Logo.src} alt='Logo' />
           </div>
           <div class='hidden lg:mx-4 lg:block'>
             <div class='flex space-x-2'>
@@ -48,8 +48,8 @@ import { Logo } from '../config'
                     href={import.meta.env.BASE_URL + item.href}
                     class={
                       (item.href.length > 0 && Astro.url.toString().includes(item.href)
-                        ? 'bg-purple-200 text-pink-600 dark:bg-purple-800 dark:text-pink-300'
-                        : 'text-purple-600 hover:bg-purple-200 hover:text-pink-600 dark:text-purple-200 dark:hover:bg-purple-800 dark:hover:text-pink-300') +
+                        ? 'bg-purple-200 text-purple-600 dark:bg-purple-800 dark:text-purple-300'
+                        : 'text-purple-600 hover:bg-purple-100 hover:text-purple-600 dark:text-purple-200 dark:hover:bg-purple-800 dark:hover:text-pink-300') +
                       ' rounded-md px-2 py-2 text-lg font-medium'
                     }
                     aria-current={
@@ -68,7 +68,6 @@ import { Logo } from '../config'
         <div
           class='absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'
         >
-          <Search />
           <Theme />
 
           <!-- Right nav -->
@@ -98,8 +97,8 @@ import { Logo } from '../config'
               href={import.meta.env.BASE_URL + item.href}
               class:list={[
                 item.href.length > 0 && Astro.url.toString().includes(item.href)
-                  ? 'bg-purple-200 text-pink-600 dark:bg-purple-800 dark:text-pink-300'
-                  : 'text-purple-600 hover:bg-purple-200 hover:text-pink-600 dark:text-purple-200 dark:hover:bg-purple-800 dark:hover:text-pink-300',
+                  ? 'bg-purple-100 text-purple-600 dark:bg-purple-800 dark:text-purple-600'
+                  : 'text-purple-600 hover:bg-purple-100 hover:text-purple-600 dark:text-purple-200 dark:hover:bg-purple-800 dark:hover:text-purple-300',
                 ' px-2'
               ]}
               aria-current={

@@ -6,13 +6,13 @@ import Map from '../components/map.astro'
 import PageHero from '../components/pagehero.astro'
 import type { CollectionEntry } from 'astro:content'
 import { SiteMetadata } from '../config'
-import coverSVG from '../assets/svg/undraw/undraw_contact_us.svg'
+import coverImage from '../assets/thinkdrops/drop2.jpg'
 import socialImage from '../assets/undraw/undraw_contact_us.png'
 
 const frontmatter: CollectionEntry<'page'>['data'] = {
   title: 'Contact',
-  description: 'Our presence is real and digital. Contact us through the following ways.',
-  coverSVG: coverSVG,
+  description: "Tell us what you've been dreaming up and we'll bring it to life",
+  coverImage: coverImage,
   socialImage: socialImage
 }
 
@@ -24,7 +24,7 @@ const social = await getCollection('social')
     <PageHero
       title={frontmatter.title}
       description={frontmatter.description}
-      coverSVG={coverSVG}
+      coverImage={coverImage}
       socialImage={socialImage}
     />
   </header>
