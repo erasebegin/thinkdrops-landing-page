@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "lint": "pnpm run lint:prettier ; pnpm run lint:eslint",
+    "lint": "npm run lint:prettier ; npm run lint:eslint",
     "lint:prettier": "prettier --write  \"src/**/*.{js,jsx,ts,tsx,md,mdx,astro}\"",
     "lint:eslint": "eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
     "astro": "astro"
@@ -18,7 +18,7 @@
     "@akebifiky/remark-simple-plantuml": "^1.0.2",
     "@astrojs/alpinejs": "^0.4.0",
     "@astrojs/mdx": "^2.2.2",
-    "@astrojs/sitemap": "^3.1.2",
+    "@astrojs/sitemap": "3.1.2",
     "@astrojs/tailwind": "^5.1.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
@@ -28,7 +28,7 @@
     "@types/leaflet": "^1.9.8",
     "@typescript-eslint/parser": "^7.4.0",
     "alpinejs": "^3.13.7",
-    "astro": "^4.5.12",
+    "astro": "4.16.19",
     "astro-robots-txt": "^1.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-astro": "^0.33.1",
@@ -69,5 +69,7 @@
     "photoswipe-dynamic-caption-plugin": "^1.2.7",
     "swiper": "^11.1.0"
   },
-  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589"
+  "overrides": {
+    "sitemap": "7.1.2"
+  }
 }

@@ -1,13 +1,15 @@
 // 1. Import your utilities and schemas
 import { z, defineCollection, reference } from 'astro:content'
-import { rssSchema } from '@astrojs/rss'
 
 // 2. Define your collections
 const blog = defineCollection({
   schema: ({ image }) =>
-    rssSchema.extend({
+    z.object({
       draft: z.boolean().optional(),
+      title: z.string(),
+      description: z.string(),
       author: reference('author').optional(),
+      pubDate: z.date().optional(),
       coverSVG: image().optional(),
       coverImage: image().optional(),
       socialImage: image().optional(),
