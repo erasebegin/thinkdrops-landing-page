@@ -8,16 +8,16 @@ export interface TagType {
 
 export const SiteMetadata = {
   title: 'Thinkdrops',
-  description: 'Welcome to the home of Thinkdrops software development',
+  description: 'AI-powered tools built for educators and students. Thinkdrops is a Savisoft product.',
   author: {
     name: 'Thinkdrops',
-    email: 'team@thinkdrops.co.uk',
-    summary: ''
+    email: 'contact@thinkdrops.co.uk',
+    summary: 'Education technology by Savisoft'
   },
   org: {
     name: 'Thinkdrops',
-    email: 'team@thinkdrops.co.uk',
-    summary: 'Welcome to the home of Thinkdrops software development'
+    email: 'contact@thinkdrops.co.uk',
+    summary: 'AI-powered tools built for educators and students. Thinkdrops is a Savisoft product.'
   },
   location: 'Borth, Wales, UK',
   latlng: [52.481851, -4.052959] as [number, number],
@@ -28,20 +28,21 @@ export const SiteMetadata = {
 export { default as Logo } from './assets/svg/drop.svg'
 export { default as LogoImage } from './assets/astro/astro-logo-dark.png'
 export { default as FeaturedImage } from './assets/thinkdrops/drop1.jpg'
-export { default as DefaultSVG } from './assets/svg/undraw/undraw_my_feed.svg'
-export { default as DefaultImage } from './assets/undraw/undraw_my_feed.png'
+export { default as DefaultSVG } from './assets/svg/undraw/undraw_design_inspiration.svg'
+export { default as DefaultImage } from './assets/undraw/undraw_design_inspiration.png'
 
 export const NavigationLinks = [
   { name: 'Home', href: '' },
-  { name: 'About', href: 'about' },
-  { name: 'Contact', href: 'contact' }
+  { name: 'Products', href: '#products' },
+  { name: 'About', href: '#about' },
+  { name: 'Contact', href: '/contact' }
 ]
 
 export const PAGE_SIZE = 6
 
-export const GITHUB_EDIT_URL = `https://github.com/hellotham/hello-astro`
+export const GITHUB_EDIT_URL = `https://github.com/erasebegin/thinkdrops-landing-page`
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
+export const PARENT_COMPANY = { name: 'Savisoft', url: 'https://savisoft.co.uk' }
 
 export type Sidebar = Record<string, { text: string; link: string }[]>
 

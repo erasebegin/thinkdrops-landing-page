@@ -6,13 +6,13 @@ coverSVG: ../../assets/svg/undraw/undraw_privacy_protection.svg
 socialImage: ../../assets/undraw/undraw_privacy_protection.png
 ---
 
-We are committed to maintaining the trust of visitors to this website. We promise to handle and store your data fairly and legally at all times.
+We are committed to maintaining the trust of visitors to this website and users of our platforms. We handle and store your data fairly and legally at all times.
 
-You have the right to view, amend, or delete the personal information that we hold. If you have any questions about what data we collect or how we use it, please let us know by emailing: info@hellotham.com.
+You have the right to view, amend, or delete the personal information that we hold. If you have any questions about what data we collect or how we use it, please email: contact@thinkdrops.co.uk.
 
 ## Personal information that we collect and why we collect it
 
-We do not collect personally identifiable information from you.
+This landing page does not collect personally identifiable information. Our product platforms (T-Quiz and T-Class) have their own privacy policies accessible within each application.
 
 ### Information collected by others
 

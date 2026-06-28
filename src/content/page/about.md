@@ -1,6 +1,6 @@
 ---
 title: About
-description: Building software that stands the test of time
+description: AI-powered tools built for educators and students
 pubDate: 2023-06-13T00:00:00.000Z
 coverSVG: ../../assets/thinkdrops/ink1.jpg
 socialImage: ../../assets/undraw/undraw_about_me.png
@@ -8,28 +8,29 @@ socialImage: ../../assets/undraw/undraw_about_me.png
 
 **About Thinkdrops**
 
-At Thinkdrops, we believe in creating digital solutions that stand the test of time. Our mission is to build resilient, scalable, and future-proof websites and applications that empower businesses to thrive in an ever-changing digital landscape.
+Thinkdrops is an education technology product line from [Savisoft](https://savisoft.co.uk) — a software company that builds practical tools for real-world needs. We focus exclusively on software for educators and students.
 
 **Who We Are**
 
-We are a dedicated team of web designers, developers, and strategists who share a passion for innovation and excellence. Our boutique agency model allows us to focus on personalized service, giving every client the attention they deserve. We take pride in crafting digital experiences that are not only visually stunning but also built to adapt and grow with your business.
+We're a small, focused team with deep roots in the classroom. Our lead product designer spent over a decade teaching before turning to software — so every feature in T-Class and T-Quiz comes from lived experience, not a product spec written in a vacuum.
+
+**What We Build**
+
+- **T-Quiz** — AI-powered quiz generation. Paste a URL, upload a file, or type notes; T-Quiz produces structured assessments in seconds.
+- **T-Class** — A full virtual campus for freelance teachers. Digital blackboard, material library, integrated quizzes, student management, and business tools — all in one place.
 
 **Our Philosophy**
 
-We understand that the digital world moves quickly, and staying ahead requires robust, reliable solutions. That's why we prioritize:
+Most teaching software is built by engineers who haven't spent a day in the classroom. We build differently:
 
-- **Resilience:** Building systems that are secure, scalable, and designed to endure technological shifts.
-- **Collaboration:** Partnering closely with our clients to truly understand their needs and aspirations.
-- **Innovation:** Leveraging the latest technologies to deliver cutting-edge results.
+- **Pedagogy-first:** Features exist because a teacher asked for them, not because a roadmap demanded them.
+- **All-in-one:** Teachers shouldn't need six different tools to run a lesson. T-Class gives you everything in a single platform.
+- **AI as amplifier:** Technology should extend the teacher's reach — not replace them.
 
-**What We Do**
+**The Savisoft Connection**
 
-From custom website design and development to comprehensive digital strategies, we help businesses navigate the complexities of the online world. Whether you’re a startup laying the foundation or an established company looking to evolve, we’re here to support your journey every step of the way.
+Thinkdrops operates as a sub-brand of Savisoft, a software company with a track record of building reliable, long-lived products. This gives us the engineering backbone to iterate quickly while staying stable.
 
-**Why Choose Us?**
-
-Choosing Thinkdrops means choosing a partner who is committed to your long-term success. Our solutions are designed to grow with you, ensuring that your digital presence remains as strong tomorrow as it is today.
-
-Let’s create something extraordinary together. <br /><br /><a href="/contact">Contact us to start building your resilient digital future</a>
+Interested in what we're building? <a href="/contact">Get in touch</a>.
 
 
